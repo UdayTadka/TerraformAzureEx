@@ -1,0 +1,7 @@
+variable "rglocationpip" {
+  
+}
+
+variable "rgnamepip" {
+  
+}
