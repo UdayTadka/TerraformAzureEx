@@ -1,9 +1,9 @@
 provider "azurerm" {
   version ="=1.44.0"
-  subscription_id  =  "ecfb86af-784f-452b-aa80-8710ed29cecb"
-  client_id        =  "ed55b255-1704-4e94-873d-df980df1c08c"
-  client_secret    =  "ZQxVy-~HQYuZiX3UPxbbxLq7ugyfy4xVGl"
-  tenant_id        =  "b41b72d0-4e9f-4c26-8a69-f949f367c91d"
+  subscription_id  =  "xxxxx"
+  client_id        =  "xxxx"
+  client_secret    =  "xxx"
+  tenant_id        =  "xxx"
 }
 resource "azurerm_resource_group" "azure_rg" {
   name     =  var.rgname
